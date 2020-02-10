@@ -1,0 +1,278 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+    background-image: url(ea3fd3102ccf575e3c33954f73eab78d.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+  width: 100%;
+}
+#gmail,#images
+{
+    color: white
+}
+
+ul {
+  list-style: none;
+}
+
+ 
+#nav_bar {
+  float: right;
+}
+
+#nav_bar li,i {
+  display: inline-block;
+  padding: 8px;
+}
+  
+
+#nav_bar #sign_in {
+  background: #4887ef; 
+  margin-right: 25px;
+  padding: 7px 15px;
+  border-radius: 3px; 
+  font-weight: bold;
+     
+}
+
+.nav-links {
+  color: #404040;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li.nav-links a:hover {
+  text-decoration: underline;
+}
+
+#sign_in:hover { 
+  box-shadow: 1px 1px 5px #999;
+}
+
+#sign_in {
+  color: #fff;
+}
+
+ 
+.google #google_logo {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  clear: both;
+  padding-top: 112px;
+  padding-bottom: 20px;
+}
+
+.form {
+  text-align: center;
+}
+
+#form-search { 
+  width: 450px;
+  line-height: 32px;
+  padding: 20px 10px;
+    border-radius:100px;
+}
+
+
+.form #form-search {
+  padding: 0 8px;
+}
+.input-icons,.input-field
+{
+    width: 450px;
+  
+  padding: 20px 10px;
+    border-radius:100px; 
+}
+  .microphone icon
+{
+    float: right
+}
+ 
+
+.buttons  {
+    margin-top: 10px;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 300px;
+    border-radius: 10px;
+    color: black;
+    
+}
+.language
+{
+    padding:10px;
+    color:#fff;
+}
+
+ 
+footer  {
+  background-color: gray;
+  border-top: solid 2px #e4e4e4;
+ 
+  bottom: 0;
+  padding-bottom: 0;
+  width: 100%;
+  
+}
+
+footer ul li {
+  display: inline;
+  color: #666666;
+  font-size: 14px;
+  padding: 13px;
+}
+
+footer ul {
+  float: left;
+  padding: 1px;
+}
+
+footer ul a:hover {
+  text-decoration: underline;
+    color:#fff;
+}
+
+.footer-right {
+  float: right;
+    
+}
+#google_search,#im_feeling_lucky
+{
+border-radius: 5px;
+    height: 39px;
+    width: 165px;
+    text-align: center;
+    margin: auto;
+    box-sizing: border-box;
+    font-weight:400;
+    color: black;
+    
+}
+#google_search:hover
+{
+    background-color: black;
+    opacity: 0.8;
+    color: #fff;
+}
+ #im_feeling_lucky:hover
+{
+    background-color: black;
+        color: #fff;
+}
+  .input-field:hover{
+    background-color:black;
+      color:#fff;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 400px) {
+ 
+ li.nav-links a {
+    display: none;
+  }
+  
+ #google_logo {
+   padding: 0;
+ }
+  
+ .buttons {
+   display: none;
+ }
+  
+ #form-search {
+   width: 80%;
+
+ }
+  
+ footer {
+   bottom: 0;
+ }
+  
+ footer ul {
+   float: none;
+   padding-bottom: 2px;
+    
+ }
+  
+ .footer-left {
+   text-align: center;
+   margin: auto; 
+   padding-top: 10px;
+    
+ }
+  
+ .footer-right {
+   float: none;
+   text-align: center;
+   
+ }
+}
+
+@media screen and (max-width: 565px) {
+ 
+  li.nav-links a {
+    display: none;
+  }
+  
+  
+ #google_logo {
+   padding: 0;
+ }
+  
+ .buttons {
+   display: none;
+ }
+  
+ #form-search {
+   width: 80%;
+
+ }
+  
+ footer {
+ 
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;
+ }
+  
+ footer ul {
+   float: none;
+   padding-bottom: 2px;
+    
+ }
+  
+ .footer-left {
+   text-align: center;
+   margin: auto; 
+   padding-top: 10px;
+    
+ }
+  
+ .footer-right {
+   float: none;
+   text-align: center;
+   
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
