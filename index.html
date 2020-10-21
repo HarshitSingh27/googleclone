@@ -1,95 +1,143 @@
-<head>
-    <title>Google Homepage</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel=stylesheet href="styleesheet.css">
-     
-    <link rel=icon href="2.jfif">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!DOCTYPE html> 
-<html> 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<head> 
-	<link rel="stylesheet"
-		href= 
-"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
-	<style> 
-		.input-icons i { 
-			position: absolute; 
-		} 
-        
-		
-		.input-icons { 
-			width: 100%; 
-			margin-bottom: 10px; 
-		} 
-		
-		.icon { 
-			padding: 10px; 
-			min-width: 40px; 
-		} 
-		
-		.input-field { 
-			width: 100%; 
-			padding: 10px; 
-			text-align: center; 
-		} 
-	</style> 
-</head> 
-
- 
-  
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="images/icon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Google</title>
+  </head>
   <body>
-<header><nav><ul id="nav_bar">
-<li class="nav-links" id="gmail"><a href="#">Gmail</a></li>
- <li class="nav-links" id="images"><a href="#">Images</a></li>
- <li id="sign_in"><a href="#">Sign In</a></li>
-        </ul>  
-      </nav>  
-    </header>  
-    
-      
-    <div class="google">
-     <a href="#" id="google_logo">
-          <img src="googlelogo_color_272x92dp.png"></a>
-   </div>
-    
-      
-   <div class="form">  
-  <form>
-    <label for="form-search"></label>
-      <div style="max-width:400px;margin:auto"> 
-		<div class="input-icons"> 
-			<i class="fa fa-search icon" class="sa fa-microphone icon"></i>
-             
-			<input class="input-field" type="text" placeholder="Search Google Or Type URL"> 
-     
-          
-          </div>
-       
-</div> 
-       </form>
-       
- 
-     
-    <div class= "buttons"> 
-        
-      <input type="submit" value="Google Search" 
-    id="google_search">
-      <input type="submit" value="I'm Feeling Lucky" id="im_feeling_lucky">
-             
-  :      </div>
-      
-      
-     
-    <footer>
-    <ul class="footer-left">
-    <li><a href="#">Advertising</a></li>
-     <li><a href="#">Business</a></li>      <li><a href="#">About</a></li> 
-    </ul>
-    <ul class="footer-right">    
-    <li><a href="#">Privacy</a></li>          <li><a href="#">Terms</a></li>
-    <li><a href="#">Settings</a></li>
-        </ul>       
-    </footer>      
+    <header>
+      <ul class="nav-bar">
+        <li>
+          <a class="links" href="#user"
+            ><button class="signbutton" type="button">Sign in</button></a
+          >
+        </li>
+        <li>
+          <a href="#grid"
+            ><img
+              class="grid"
+              src="https://cdn3.iconfinder.com/data/icons/navigation-and-settings/24/Material_icons-01-11-512.png"
+              title="Google apps"
+          /></a>
+        </li>
+        <li><a href="#images">Images</a></li>
+        <li><a href="#gmail">Gmail</a></li>
+      </ul>
+    </header>
+    <div class="page">
+      <img class="logo" src="images/download.gif" width="450" />
+      <br />
+      <!-- <input id="searchme" class="search" title="Search" type="text" /> -->
+      <div class="bar">
+        <a href="#">
+          <img src="images/search.png" class="search-icon" alt="" />
+        </a>
+        <input class="searchbar" id="searchme" type="text" title="Search" />
+        <a href="#">
+          <img
+            class="voice"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png"
+            title="Search by Voice"
+        /></a>
       </div>
-    </body>
+      <br />
+      <div class="Bcontainer">
+        <div class="button left">Google Search</div>
+        <div class="button right">I'm Feeling Lucky</div>
+      </div>
+      <div class="languages">
+        <p>
+          Google offered in:
+          <a href="#" class="ml-2">हिन्दी</a>
+          <a href="#">বাংলা</a>
+          <a href="#">తెలుగు</a>
+          <a href="#">मराठी</a>
+          <a href="#">தமிழ்</a>
+          <a href="#">ગુજરાતી</a>
+          <a href="#">ಕನ್ನಡ</a>
+          <a href="#">മലയാളം</a>
+          <a href="#">ਪੰਜਾਬੀ</a>
+        </p>
+      </div>
+    </div>
+
+    <!-- footer  -->
+    <footer class="nav-tabs">
+      <ul class="footer-left">
+        <li><a href="#">Advertising</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">How search works</a></li>
+        <span>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Settings</a></li>
+        </span>
+      </ul>
+    </footer>
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+    <script>
+      $(document).ready(function () {
+        var gsearch = function () {
+          var url =
+            "https://www.google.com/search?q=" +
+            document.getElementById("searchme").value;
+          window.location.href = url;
+        };
+        var glucky = function () {
+          var url =
+            "https://www.google.com/search?q=" +
+            document.getElementById("searchme").value +
+            "&btnI";
+          window.location.href = url;
+        };
+
+        $(".left").click(gsearch);
+        $(".right").click(glucky);
+
+        $("#searchme").keypress(function (e) {
+          if (e.which == 13) {
+            gsearch();
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
